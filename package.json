@@ -1,0 +1,31 @@
+{
+  "name": "fattor",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "postinstall": "prisma generate"
+  },
+  "dependencies": {
+    "@hello-pangea/dnd": "^17.0.0",
+    "@prisma/client": "^5.22.0",
+    "bootstrap": "^5.3.3",
+    "dotenv": "^16.4.5",
+    "formik": "^2.4.6",
+    "knex": "^3.1.0",
+    "mysql2": "^3.11.4",
+    "next": "15.0.3",
+    "react": "^18.3.1",
+    "react-bootstrap": "^2.10.5",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.3.0",
+    "react-toastify": "^10.0.6",
+    "yup": "^1.4.0"
+  },
+  "devDependencies": {
+    "prisma": "^5.22.0"
+  }
+}

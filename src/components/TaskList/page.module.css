@@ -1,0 +1,13 @@
+.thead {
+    padding: 10px 10px 0 10px;
+}
+
+.tbody {
+    height: 475px;
+    overflow: auto;
+    padding: 0 10px;
+}
+
+.taskList {
+    height: 95%;
+}

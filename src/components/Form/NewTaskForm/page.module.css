@@ -1,0 +1,17 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    background: #eee;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.field input {
+    padding: 5px;
+}
