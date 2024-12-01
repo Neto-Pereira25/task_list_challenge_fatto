@@ -8,6 +8,8 @@ import style from './page.module.css';
 import Schema from "./Schema";
 import { getTaskList } from "@/services/tasksService";
 
+require('dotenv').config();
+
 const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL;
 
 export default function NewTaskForm({

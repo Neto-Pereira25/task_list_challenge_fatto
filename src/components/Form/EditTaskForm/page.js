@@ -8,6 +8,8 @@ import style from './page.module.css';
 import Schema from './Schema';
 import { getTaskList } from "@/services/tasksService";
 
+require('dotenv').config();
+
 export default function EditTaskForm({
     isOpen, onClose, tasks, idTask, setTasks, setLoading
 }) {

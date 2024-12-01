@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL;
 
 export async function getTaskList() {

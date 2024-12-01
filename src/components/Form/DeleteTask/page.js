@@ -3,6 +3,8 @@ import { Button, Modal, Spinner } from "react-bootstrap";
 import { toast } from "react-toastify";
 import { getTaskList } from "@/services/tasksService";
 
+require('dotenv').config();
+
 export default function DeleteTask({
     isOpen, onClose, tasks, idTask, setTasks, setLoading
 }) {
